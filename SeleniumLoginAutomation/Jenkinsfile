@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/yourusername/yourrepository.git'
+                git 'https://github.com/SnehaSSP/seleniumAUTOMATION.git'
             }
         }
         stage('Setup') {
